@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import layers *
+from layers import *
 cps()
 train_datagen = ImageDataGenerator(rescale=1. / 255, shear_range=0.2,
                                    zoom_range=0.2, horizontal_flip=True)
