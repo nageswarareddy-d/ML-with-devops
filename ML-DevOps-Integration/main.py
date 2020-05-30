@@ -20,7 +20,7 @@ test_set = test_datagen.flow_from_directory(
 model.fit(
         training_set,
         steps_per_epoch=8000,
-        epochs=1,
+        epochs=4,
         validation_data=test_set,
         validation_steps=800)
 
